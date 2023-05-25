@@ -1,4 +1,5 @@
 module.exports = {
+    preset: "ts-jest",
     roots: [
       "test"
     ],
@@ -13,10 +14,5 @@ module.exports = {
       "**/*.{js,jsx,ts,tsx}",
       "!**/*.d.ts",
       "!**/node_modules/**",
-    ],
-    globals: {
-      "ts-jest": {
-        tsconfig: "tsconfig.json",
-      },
-    },
+    ]
   }
