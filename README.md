@@ -1,7 +1,6 @@
 FizzBuzz exercise
 Write a program that prints numbers from 1 to 100, one number per line. For each printed number,
-use these rules ●
-following rules :
+use these following rules :
 - if the number is divisible by 3 or contains 3, replace 3 by "Fizz" 
 - if the number is divisible by 5 or contains 5, replace 5 by "Buzz"
 - divisors have high precedence, ex: 51 -> FizzBuzz
