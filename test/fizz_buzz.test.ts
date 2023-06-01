@@ -25,8 +25,8 @@ describe('test fizz function', () => {
       expect( fizzToStr(2) ).toBe("2")
     })
 
-    test('3 gets Fizz', () => {
-      expect(fizzToStr(3)).toBe("FizzFizz")
+    test('6 gets Fizz', () => {
+      expect(fizzToStr(6)).toBe("Fizz")
     })
 
     test('should be divisible by 3 and contains a 3, function result should be 2', () => {
