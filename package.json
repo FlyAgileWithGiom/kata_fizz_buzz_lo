@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
-    "ts-test": "ts-jest"
+    "clean": "rm -r dist",
+    "test:watch": "jest --watchAll"
   },
   "keywords": [],
   "author": "",
